@@ -1,0 +1,62 @@
+Id,Name,Shape Library,Page ID,Contained By,Group,Line Source,Line Destination,Source Arrow,Destination Arrow,Text Area 1
+1,Page,,,,,,,,,Page 1
+2,Workcell,Value Stream,1,,,,,,,ALU
+3,Text,Standard,1,,,,,,,PC
+4,Text,Standard,1,,,,,,,Instruction Memory
+5,Text,Standard,1,,,,,,,PCin
+6,Text,Standard,1,,,,,,,RdAdd
+7,Text,Standard,1,,,,,,,Instr
+8,Text,Standard,1,,,,,,,
+9,Text,Standard,1,,,,,,,0 1 2
+10,Text,Standard,1,,,,,,,Register Files
+11,Text,Standard,1,,,,,,,
+12,Text,Standard,1,,,,,,,0 1 2
+13,Text,Standard,1,,,,,,,RegDst
+14,Text,Standard,1,,,,,,,RegData
+15,Text,Standard,1,,,,,,,WrData
+16,Text,Standard,1,,,,,,,RdData2
+17,Text,Standard,1,,,,,,,RdData1
+18,Text,Standard,1,,,,,,,WrReg
+19,Text,Standard,1,,,,,,,RdReg2
+20,Text,Standard,1,,,,,,,RdReg1
+21,Text,Standard,1,,,,,,,rs [25:21]
+22,Text,Standard,1,,,,,,,rt [20:16]
+23,Text,Standard,1,,,,,,,rd[15:11]
+24,Text,Standard,1,,,,,,,5'd31($ra)
+25,Text,Standard,1,,,,,,,PC+4
+26,Connector,Flowchart Shapes,1,,,,,,,sll 2
+27,Connector,Flowchart Shapes,1,,,,,,,sign ext.
+28,Connector,Flowchart Shapes,1,,,,,,,ALU Control
+29,Text,Standard,1,,,,,,,Control Logic
+30,Text,Standard,1,,,,,,,JR
+31,Text,Standard,1,,,,,,,RegWr
+32,Text,Standard,1,,,,,,,
+33,Text,Standard,1,,,,,,,0 1 
+34,Text,Standard,1,,,,,,,ALUSrc
+35,Text,Standard,1,,,,,,,JR
+36,Line,,1,,,,,None,None,
+37,Line,,1,,,4,36,None,Arrow,
+38,Line,,1,,,3,4,None,Arrow,
+39,Line,,1,,,8,13,None,BPMN Conditional,
+40,Line,,1,,,11,14,None,BPMN Conditional,
+41,Line,,1,,,12,10,None,Arrow,
+42,Line,,1,,,9,10,None,Arrow,
+43,Line,,1,,,36,10,None,Arrow,
+44,Line,,1,,,36,20,None,Arrow,
+45,Line,,1,,,9,43,Arrow,None,
+46,Line,,1,,,9,36,Arrow,None,
+47,Line,,1,,,9,24,Arrow,Measure,
+48,Line,,1,,,12,25,Arrow,BPMN Conditional,
+49,Line,,1,,,12,,Arrow,None,
+50,Line,,1,,,26,11,None,Arrow,
+51,Line,,1,,,26,36,Arrow,None,
+52,Line,,1,,,27,51,Arrow,None,
+53,Line,,1,,,28,2,None,Arrow,
+54,Line,,1,,,28,52,Arrow,None,
+55,Line,,1,,,29,36,Arrow,None,
+56,Line,,1,,,29,30,Arrow,BPMN Conditional,
+57,Line,,1,,,10,31,Arrow,BPMN Conditional,
+58,Line,,1,,,27,,None,Arrow,
+59,Line,,1,,,32,34,None,BPMN Conditional,
+60,Line,,1,,,33,2,None,Arrow,
+61,Line,,1,,,28,35,None,BPMN Conditional,

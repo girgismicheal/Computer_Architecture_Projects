@@ -1,0 +1,10 @@
+CO Report:
+
+- brief description of the implemintation and design choices
+- data path diagram
+- instruction Set
+- any non-standard assumbptions
+- contribution of each student
+
+- testing strategy
+- screenshots of automated testing running correctly
