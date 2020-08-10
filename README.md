@@ -15,3 +15,7 @@ This Project also has a simple GUI showing the state of the system at every edge
 This Project uses the _ReadAddress2_ Folder to store the DMA instructions, and every State of the System at every edge (positive and negative.
 
 You can see all implementation Details in the Project Report pdf.
+
+# Team:
+1.<a href="https://github.com/PierreNabil">  Pierre Nabil </a>
+2.<a href="https://github.com/girgismicheal"> Girgis Micheal </a>
